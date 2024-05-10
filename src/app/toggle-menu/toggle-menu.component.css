@@ -1,0 +1,51 @@
+:root {
+    --body-color: #010c15;
+    --box-bg: #26d0ce;
+    --box-fg: var(--body-color);
+    --box-border: #d3d3d3;
+    --box-width: 150px;
+    --border-radius: 5px;
+  
+    color-scheme: dark;
+  }
+
+  .content-box {
+    
+    color: white;
+    transition: color 0.3s; /* Smooth transition for color change */
+    /* Additional styles can be added here */
+}
+
+
+.content-box:hover {
+    color: yellow;
+}
+
+
+  nav {
+    background-color: #3c7a14;
+    text-align: center;
+    font: bold 1.5rem sans-serif;
+    box-shadow: 0 5px 50px 0px rgb(255 255 255 / 0.3);
+  }
+  nav  a {
+      transition: 0.2s;
+      color: white;
+      text-decoration: none;
+      width: var(--box-width);
+      background: var(--box-bg);
+      padding: calc(var(--box-width) / 10);
+  }
+      nav  a:first-child {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+      }
+  
+      nav  a:last-child {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+      }
+    
+ 
+  
+  

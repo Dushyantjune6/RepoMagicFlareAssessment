@@ -1,0 +1,113 @@
+    <div class="schedule-container">
+        <!-- <div class="header">
+            <div class="left-section">
+                <h1>GG09</h1>
+                <h2>Sarvosmi</h2>
+            </div>
+            <div class="right-section">
+                <h2>ERX-RMSC</h2>
+                <h3>Raw Material Supply Chain</h3>
+            </div>
+        </div> -->
+        <div class="content">
+            <!-- <div class="top-nav">
+                <a href="#" class="active">Schedule</a>
+                <a href="#">Actual Status</a>
+                <a href="#">Alerts</a>
+            </div> -->
+                <div class="row">
+                    <div class="col-sm-4 px-0">
+                        <div class="table-container">
+                            <table id="data-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2" [height]="60" class="bg-colour fixed-column">QC Engineer</th> 
+                                        <th rowspan="2" class="bg-colour fixed-column">Status</th>
+                                        <!-- <th [attr.colspan]="timeSlots.length" class="bg-colour">Time</th> -->
+                                    </tr>
+                                    <!-- <tr>
+                                        <th *ngFor="let slot of timeSlots" class="slot-header">{{ slot }}</th>
+                                    </tr> -->
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2" class="fixed-column">Rajesh Yadav</td>
+                                        <td class="fixed-column">Schedule</td>
+                                        <!-- <td class="fixed-column" [attr.colspan]="timeSlots.length">Something</td> -->
+                                    </tr>
+                                    <tr>
+                                        <td class="fixed-column" style="left: 150px;">Actual Status</td>
+                                        <!-- <td class="fixed-column"  style="left: 300px;" [attr.colspan]="timeSlots.length">Something</td> -->
+                                    </tr>
+            
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 px-0">
+                        <div class="d-flex flex-column schedule-container">
+                            <div class="t-header text-center text-white font-bold bg-colour">
+                                Time                            
+                            </div>
+                            <div class="scrollable-container">
+                                <div class="t-header d-flex">
+                                    <div *ngFor="let slot of timeSlots" class="slot">{{ slot }}</div>
+                                </div>
+                                <div class="t-body w-100 position-relative">
+                                    <div *ngFor="let row of outputlist" class="t-row">
+                                            <span *ngFor="let activity of row" class="activity" 
+                                            [ngStyle]="{'left': activity.left, 'width': activity.width }"
+                                            >
+                                                {{activity.activityName|json}}
+                                            </span>
+                                    </div>
+                                </div>
+                            </div>
+                               
+                        </div>
+                        <!-- <div class="table-container">
+                            <table id="data-table">
+                              
+                                <tbody>
+                                    <tr>
+                                       
+                                        
+                                        <td class="fixed-column" [attr.colspan]="timeSlots.length">Something</td>
+                                                                                <td class="fixed-column"  style="left: 300px;" [attr.colspan]="timeSlots.length">Something</td>
+
+                                    </tr>
+            
+                                </tbody>
+                            </table>
+                        </div> -->
+                    </div>
+                </div>
+                
+            <!-- <div class="table-container">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2" class="bg-colour fixed-column">QC Engineer</th> 
+                            <th rowspan="2" class="bg-colour fixed-column">Status</th>
+                            <th [attr.colspan]="timeSlots.length" class="bg-colour">Time</th>
+                        </tr>
+                        <tr>
+                            <th *ngFor="let slot of timeSlots" class="slot-header">{{ slot }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" class="fixed-column">Rajesh Yadav</td>
+                            <td class="fixed-column">Schedule</td>
+                            <td class="fixed-column" [attr.colspan]="timeSlots.length">Something</td>
+                        </tr>
+                        <tr>
+                            <td class="fixed-column" style="left: 150px;">Actual Status</td>
+                            <td class="fixed-column"  style="left: 300px;" [attr.colspan]="timeSlots.length">Something</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+    </div>

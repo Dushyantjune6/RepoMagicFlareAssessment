@@ -1,0 +1,11 @@
+
+  <app-top-component></app-top-component>
+  <app-toggle-menu></app-toggle-menu>
+  <div class="container">
+    <app-shift-selection-nav-bar
+    (applyChanges)="onApplyChanges($event)" 
+    (cancelChanges)="onCancelChanges()">
+  </app-shift-selection-nav-bar>
+  <app-data-display-grid></app-data-display-grid>
+  </div>
+

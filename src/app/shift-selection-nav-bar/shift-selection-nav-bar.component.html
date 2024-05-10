@@ -1,0 +1,40 @@
+<div class="row custom-border">
+    <div class="col-md-10">
+        <div class="navbar ">
+            <input type="date" placeholder="Select Date" [(ngModel)]="selectedDate">
+            <select [(ngModel)]="selectedShift">
+              <option value="morning">Morning Shift</option>
+              <option value="evening">Evening Shift</option>
+            </select>
+            <button (click)="apply()">Apply</button>
+            <button (click)="cancel()">Clear</button>
+          </div>
+          
+    </div>
+
+      <div class="col-md-2">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Scheduled</td>
+                    <td class="color-block red"></td>
+                </tr>
+                <tr>
+                    <td>Available</td>
+                    <td class="color-block green"></td>
+                </tr>
+                <tr>
+                    <td>Busy</td>
+                    <td class="color-block yellow"></td>
+                </tr>
+                <tr>
+                    <td>Pause</td>
+                    <td class="color-block gray"></td>
+                </tr>
+            </tbody>
+        </table>
+    
+      </div>
+</div>
+
+   

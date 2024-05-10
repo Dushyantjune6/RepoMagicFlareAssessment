@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .navbar input[type="date"],
+  .navbar select {
+    margin-right: 10px;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust width as needed */
+}
+
+th, td {
+    text-align: left;
+    border: 1px solid #ddd; /* Add border for all cells */
+}
+
+th {
+    background-color: #ddd;
+}
+
+.custom-border {
+    border: 2px solid #ccc; /* Adjust the border width and color */
+    padding: 10px; /* Adjust the padding to increase the border gap */
+    padding-bottom: 20px; /* Increase padding from the bottom to create space at the bottom */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.color-block {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.gray {
+    background-color: gray;
+}

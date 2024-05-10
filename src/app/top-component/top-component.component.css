@@ -1,0 +1,56 @@
+
+
+.title-section {
+    /* margin-bottom: 20px; */
+    text-align: center;
+    background-color: white;
+}
+.green-text {
+    font-size: 2em;
+    color: #3c7a14;;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.content-box {
+    background-color: red;
+    color: yellow;
+    padding: 10px;
+    width: 100%;
+    height: 5vh;
+ 
+}
+
+.left-tilt{
+        /* margin-left: -750px; */
+        /* display: flexbox;
+        flex-direction: ; */
+}
+
+.logo-tilt{
+    margin-left: -1050px;
+}
+
+
+.subtitle {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.bg-colour {
+    background-color: #c8c07f;
+}
+
+.content {
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+}
